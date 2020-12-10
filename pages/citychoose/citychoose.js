@@ -76,6 +76,20 @@ Page({
   },
   choose(e) {
     let name = e.currentTarget.dataset.name
+    var choose_city_list = wx.getStorageSync("choose_city_list")
+    console.log(choose_city_list)
+    if ($.isEmptyObject(choose_city_list)) {
+      var list = []
+      list.push(name)
+      wx.setStorageSync("choose_city_list",list) // 覆盖缓存数据
+    } else {
+      if (!choose_city_list.indexOf(name)) {
+        choose_city_list.push(name)
+      }
+    }
+
+    wx.setStorageSync("choose_city_list",choose_city_list) // 覆盖缓存数据
+
     let pages = getCurrentPages()
     let len = pages.length
     let indexPage = pages[len - 2]
@@ -93,7 +107,7 @@ Page({
     let data = hotCityData.hotCity
     console.log(data)
     if (data) {
-      console.log("data")
+      // console.log("data")
       this.setData({
         hotCities:data
       })

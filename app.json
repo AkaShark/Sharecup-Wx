@@ -29,7 +29,9 @@
     "pages/solar_terms/daxue/daxue",
     "pages/solar_terms/dongzhi/dongzhi",
     "pages/solar_terms/xiaohan/xiaohan",
-    "pages/solar_terms/dahan/dahan"
+    "pages/solar_terms/dahan/dahan",
+    "pages/local/local"
+    
   ],
   "window": {
     "backgroundTextStyle": "dark",
