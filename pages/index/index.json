@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "小天气",
+  "navigationBarTitleText": "气象知多少",
   "enablePullDownRefresh": true,
   "usingComponents": {
     "heartbeat": "/components/heartbeat/heartbeat"

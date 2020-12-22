@@ -518,7 +518,7 @@ Page({
   onShareAppMessage(res) {
     let shareInfo = this.data.shareInfo
     return {
-      title: shareInfo.title || '小天气',
+      title: shareInfo.title || '气象知多少',
       path: shareInfo.path || '/pages/index/index',
       imageUrl: shareInfo.imageUrl,
     }
@@ -553,7 +553,8 @@ Page({
   menuToSetting() {
     this.menuMain()
     wx.navigateTo({
-      url: '/pages/setting/setting',
+      /// TODO: 跳转到其他地方
+      url: '/pages/knowledge/knowledge',
     })
   },
   menuToAbout() {
