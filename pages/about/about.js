@@ -1,11 +1,12 @@
 let utils = require('../../utils/utils')
 Page({
   data: {
-    projectAddress: 'https://github.com/myvin/quietweather',
-    github: 'https://github.com/myvin',
-    email: '851399101@qq.com',
-    qq: '851399101',
+    projectAddress: 'https://github.com/AkaShark/Sharecup-Wx',
+    github: 'https://github.com/AkaShark',
+    email: '1548742234@qq.com',
+    qq: '1548742234',
     swiperHeight: 'auto',
+    // banner轮播图图片切换
     bannerImgList: [
       {
         src: 'https://raw.githubusercontent.com/myvin/miniprogram/master/quietweather/images/miniqrcode.jpg',

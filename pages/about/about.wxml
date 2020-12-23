@@ -4,6 +4,7 @@
       <block wx:for="{{bannerImgList}}" wx:key="{{index}}">
         <swiper-item>
           <view class='info' data-index='{{index}}' catchtap='previewImages'>
+            <!-- 轮播图图片地址 -->
             <image src='{{item.src}}'></image>
             <view class='name'>{{item.title}}</view>
           </view>
@@ -12,19 +13,22 @@
     </swiper>
     <!-- <ad unit-id="adunit-da632c715ebfb1a5"></ad> -->
     <view class='item'>
-      <view class='title'>代码已开源</view>
-      <view class='i' catchtap='copy' data-title='项目地址' data-content='{{projectAddress}}'>
+      <view class='title'>作品介绍</view>
+      <view class='i' catchtap='copy' data-title='项目地址' data-content='{{projectAddress}}'> 
         <view class='icon'>
+          <!-- 更换成APP图标 -->
           <image src='/img/github.png'></image>
-        </view>
-        <view class='text'>
-          <view>可随意 star</view>
-          <view>{{projectAddress}}</view>
+          <view class="text">天气知多少</view>
         </view>
       </view>
+        <view class='text'>
+          <view></view>
+          <view>共享杯气象科普小程序</view>
     </view>
+      </view>
+     
     <view class='item'>
-      <view class='title'>联系开发者</view>
+      <view class='title'>联系我们</view>
       <view class='i' catchtap='copy' data-title='GitHub' data-content='{{github}}'>
         <view class='icon'>
           <image src='/img/github.png'></image>
@@ -66,9 +70,9 @@
         <view class='icon'>
           <image src='/img/weather.png'></image>
         </view>
-        <view class='text'>气象数据来源：和风天气</view>
+        <view class='text'>中国气象局</view>
       </view>
     </view>
   </view>
-  <view class='footer'>开发者 · myvin</view>
+  <view class='footer'>开发者 The dream team</view>
 </view>

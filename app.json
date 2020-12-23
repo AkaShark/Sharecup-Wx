@@ -29,12 +29,15 @@
     "pages/solar_terms/daxue/daxue",
     "pages/solar_terms/dongzhi/dongzhi",
     "pages/solar_terms/xiaohan/xiaohan",
-    "pages/solar_terms/dahan/dahan"
+    "pages/solar_terms/dahan/dahan",
+    "pages/local/local",
+    "pages/knowledge/knowledge"
+    
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#40a7e7",
-    "navigationBarTitleText": "小天气",
+    "navigationBarTitleText": "气象知多少",
     "navigationBarTextStyle": "white"
   },
   "permission": {
