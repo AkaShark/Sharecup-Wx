@@ -9,16 +9,19 @@ Page({
     // banner轮播图图片切换
     bannerImgList: [
       {
-        src: 'https://raw.githubusercontent.com/myvin/miniprogram/master/quietweather/images/miniqrcode.jpg',
-        title: 'Quiet Weather',
+        src: "../../img/accomplishment-adventure-clear-sky-585825.jpg",
+        // src: 'https://raw.githubusercontent.com/myvin/miniprogram/master/quietweather/images/miniqrcode.jpg',
+        title: '天气美图欣赏',
       },
       {
-        src: 'https://raw.githubusercontent.com/myvin/miniprogram/master/juejin/images/miniqrcode.jpg',
-        title: '掘金第三方版',
+        // src: 'https://raw.githubusercontent.com/myvin/miniprogram/master/juejin/images/miniqrcode.jpg',
+        src: "../../img/aerial-climate-cold-296559.jpg",
+        title: '天气美图欣赏',
       },
       {
-        src: 'https://raw.githubusercontent.com/myvin/miniprogram/master/suijiyitu/images/suijiyitu.jpg',
-        title: '随机一图',
+        src: "../../img/asphalt-blue-sky-clouds-490411.jpg",
+        // src: 'https://raw.githubusercontent.com/myvin/miniprogram/master/suijiyitu/images/suijiyitu.jpg',
+        title: '天气美图欣赏',
       },
     ],
   },
